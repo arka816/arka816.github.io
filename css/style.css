@@ -6,7 +6,7 @@ div.info{
 	border-radius: 40px;
 	background-color: rgba(150,150,200,0.2);
 	margin-left: 100px;
-	margin-top: 20px;
+	margin-top: 40px;
 	filter: blur(2px);
 }
 div.info:hover{
