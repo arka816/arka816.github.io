@@ -1,15 +1,13 @@
 /*code for info portion*/
-div.info{
-	width: 600px;
-	height: 350px;
-	padding: 10px;
+span.info{
+	padding: 20px;
 	border-radius: 30px;
 	background-color: rgba(150,150,200,0.2);
-	margin-left: 785px;
-	margin-top: 20px;
+	margin-left: 100px;
+	margin-top: 70px;
 	filter: blur(2px);
 }
-div.info:hover{
+span.info:hover{
 	filter: blur(0px);
 	background-color: rgba(150,150,200,0.4);
 	color: rgba(250,25,250,1);
@@ -17,10 +15,7 @@ div.info:hover{
 }
 
 /*code for image portion*/
-div.image{
-	width: 640px;
-	height: 640px;
-	border-radius: 60px;
+span.image{
 	margin-top: 50px;
 	margin-left: 50px;
 }
