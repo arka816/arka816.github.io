@@ -1,12 +1,12 @@
 /*code for info portion*/
 div.info{
 	width: 800px;
-	height: 200px;
+	height: 300px;
 	padding: 30px;
 	border-radius: 40px;
 	background-color: rgba(150,150,200,0.2);
-	margin-left: 100px;
-	margin-top: 60px;
+	margin-left: 50px;
+	margin-top: 10px;
 	filter: blur(2px);
 }
 div.info:hover{
@@ -21,7 +21,7 @@ div.image{
 	width: 300px;
 	height: 300px;
 	border-radius: 60px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: 50px;
 }
 img.round{						
