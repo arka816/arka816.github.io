@@ -8,7 +8,6 @@ div.info{
 	margin-left: 50px;
 	margin-top: 50px;
 	filter: blur(2px);
-	display: inline;
 }
 div.info:hover{
 	filter: blur(0px);
@@ -24,7 +23,6 @@ div.image{
 	border-radius: 60px;
 	margin-top: 50px;
 	margin-left: 50px;
-	display: inline;
 }
 img.round{						
 	border-radius: 30px;
