@@ -39,15 +39,31 @@ div.log-panel{
 div.log-in{
 	background-color: #ad2826;
 	margin-bottom: 5px;
+	text-align: center;
 }
-div.email{
-	width: 270px;
-	background-color: white;
-	color: grey; 
-	text-align: left;
-	margin:15px;
-	padding:10px;
+form.email{
+	text-align: center;
+	height: 20.187094%;
+	color: grey;
 }
+input{
+	width: 280px;
+	height: 35px;
+	margin:15px 0px 0px 0px;
+	padding-left: 10px;
+}
+input.sign-in{
+	width: 292.6px;
+	background-color: #f28005;
+	color: white;
+	font-size: 25px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+	height: 45px;
+}
+
+
 div.new-account{
 	display: inline-flex;
 	text-align: center;
@@ -59,6 +75,7 @@ div.create-account{
 	color: white;
 }
 div.rem{
+	width: 290px;
 	display: inline-flex;
 	text-align: left;
 	color: white;
