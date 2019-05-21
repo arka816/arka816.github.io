@@ -1,0 +1,189 @@
+div.fixed-feedback{
+	position: fixed;
+	right: 0px;
+	bottom: 45%;
+	width: 27px;
+	height: 108px;
+}
+div.fixed-captcha{
+	position: fixed;
+	right: 0px;
+	bottom: 5%;
+	width: 70px;
+	height: 60px;
+}
+
+div.top{
+	text-align: center;
+}
+div.header{
+	width: 1000px;
+	display: inline-flex;
+}
+
+
+div.head{
+	background-color: #d83230;
+	text-align: center;
+}
+div.heading{
+	width: 1000px;
+	text-align: left;
+	color: white; 
+	display: inline-block;
+}
+div.log-panel{
+	width: 1000px;
+	display: inline-flex;
+}
+div.log-in{
+	background-color: #ad2826;
+	margin-bottom: 5px;
+}
+div.email{
+	width: 270px;
+	background-color: white;
+	color: grey; 
+	text-align: left;
+	margin:15px;
+	padding:10px;
+}
+div.new-account{
+	display: inline-flex;
+	text-align: center;
+}
+div.create-account{
+	width: 326px;
+	background-color: #ad2826;
+	margin:5px; 
+	color: white;
+}
+div.rem{
+	display: inline-flex;
+	text-align: left;
+	color: white;
+	font-family: sans-serif;
+	font-size: 60%;
+}
+
+
+
+
+div.mid{
+	background-color: #d83230;
+	text-align: center;
+}
+
+div.bar{
+	background-color: #ad2826;
+}
+
+div.video-panel1{
+	background-color: #3abaac;
+	background-image: url('image4.jpg');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment: scroll;
+	background-size: cover;  
+	text-align: center;
+	border-top: 3px solid white;
+}
+div.quote{
+	text-align: center;
+}
+div.video{
+	width: auto;
+	text-align: center;
+	display: inline-block;
+}
+div.reading-panel{
+	text-align: center;
+}
+div.reading-images{
+	width: auto;
+	text-align: center;
+	display: inline-flex;
+}
+h3.teacher{
+	color: #3a3a3a;
+	font-size: 20px; 
+	text-align: center;
+	font-weight: 100;
+}
+p.number{
+	color: #D73131; 
+	font-weight: bold; 
+	font-size: 150%;
+}
+p.number::before{
+	color: #dbcba6;
+	content: "_____";
+}
+p.number::after{
+	color: #dbcba6;
+	content: "_____";
+}
+
+div.video-panel2{
+	background-color: #f4f1ea;
+	text-align: center;
+}
+
+div.exclusive{
+	text-align: center;
+	display: inline-flex;
+	width: 1000px;
+	color: #3a3a3a;  
+	font-size: 20px;
+	line-height: 30px;
+}
+div.tiles{
+	width: 250px; 
+	border-left: 1px solid #3a3a3a;
+	height: 100px;
+	padding-top: 10px;
+}
+
+div.start-panel{
+	background-color: #f4f1ea;
+	text-align: center;
+}
+div.start{
+	width: 1000px;
+	text-align: center;
+	display: inline-flex; 
+}
+div.create{
+	width: 490px;
+	text-align: center;  
+	font-size: 30px; 
+	margin-bottom: 30px;
+}
+
+div.contacts{
+	width: 100%;
+	display: inline-flex;
+	text-align: center;
+	justify-content: space-between;
+}
+div.contacts-panel{
+	background-color: #f4f1ea;
+	line-height: 30px; 
+	text-align: left;
+}
+
+div.top-link{
+	position: fixed;
+	right: 200px;
+	bottom: 10%;
+}
+
+div.end{
+	display: inline-block;
+	width: 1000px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 70%;
+	line-height: 18px;
+}
