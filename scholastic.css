@@ -5,6 +5,12 @@ div.fixed-feedback{
 	width: 27px;
 	height: 108px;
 }
+img.feedback{
+	border-top-left-radius: 8px; 
+	border-bottom-left-radius: 8px;
+	 width: 27px; 
+	 height: 108px;
+}
 div.fixed-captcha{
 	position: fixed;
 	right: 0px;
@@ -12,6 +18,13 @@ div.fixed-captcha{
 	width: 70px;
 	height: 60px;
 }
+img.captcha{
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	width: 70px; 
+	height: 60px;
+}
+
 
 div.top{
 	text-align: center;
@@ -32,6 +45,7 @@ div.heading{
 	color: white; 
 	display: inline-block;
 }
+
 div.log-panel{
 	width: 1000px;
 	display: inline-flex;
@@ -46,11 +60,32 @@ form.email{
 	height: 20.187094%;
 	color: grey;
 }
+form.password{
+	text-align: center;
+	height: 20.187094%;
+	color: grey;
+	margin-bottom: 10px;
+}
+form.submit{
+	text-align: center;
+	height: 20.187094%;
+	color: grey;
+	margin-top: 10px;
+}
+
 input{
 	width: 280px;
 	height: 35px;
 	margin:15px 0px 0px 0px;
 	padding-left: 10px;
+}
+input.save-password{
+	width: 20px; 
+	height: 20px; 
+	margin-top: 2px; 
+	margin-right: 5px; 
+	background-color: white; 
+	float: left
 }
 input.sign-in{
 	width: 292.6px;
@@ -62,11 +97,23 @@ input.sign-in{
 	text-align: center;
 	height: 45px;
 }
+p.forget{
+	color: white; 
+	text-align: left; 
+	font-family: sans-serif; 
+	font-size: 70%; 
+	padding: 5px 0px 0px 15px;
+}
 
+div.sign-up{
+	width: 670px;
+	padding-left: 10px;
+}
 
 div.new-account{
 	display: inline-flex;
 	text-align: center;
+	width: 660px;
 }
 div.create-account{
 	width: 326px;
@@ -83,13 +130,6 @@ div.rem{
 	font-size: 60%;
 }
 
-
-
-
-div.mid{
-	background-color: #d83230;
-	text-align: center;
-}
 
 div.bar{
 	background-color: #ad2826;
@@ -173,15 +213,14 @@ div.create{
 }
 
 div.contacts{
+	background-color: #f4f1ea;
 	width: 100%;
-	display: inline-flex;
 	text-align: center;
-	justify-content: space-between;
 }
 div.contacts-panel{
-	background-color: #f4f1ea;
 	line-height: 30px; 
 	text-align: left;
+	border-left: 3px solid white;
 }
 
 div.top-link{
