@@ -1,3 +1,5 @@
+
+
 div.fixed-feedback{
 	position: fixed;
 	right: 0px;
@@ -96,6 +98,19 @@ input.sign-in{
 	padding: 0px;
 	text-align: center;
 	height: 45px;
+	transition-duration: 1s;
+}
+input.sign-in:hover{
+	width: 292.6px;
+	background-color: #f28005;
+	color: white;
+	font-size: 25px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+	height: 45px;
+	opacity: 0.7;
+	transition-duration: 1s;
 }
 p.forget{
 	color: white; 
@@ -121,6 +136,48 @@ div.create-account{
 	margin:5px; 
 	color: white;
 }
+div.teacher-account{
+	background-color: #3FB0EB; 
+	color: white; margin:0px 30px; 
+	font-size: 18px; 
+	padding: 8px; 
+	margin-bottom: 30px; 
+	font-weight: 100;
+	transition-duration: 1s;
+}
+div.teacher-account:hover{
+	background-color: #3FB0EB; 
+	color: white; margin:0px 30px; 
+	font-size: 18px; 
+	padding: 8px; 
+	margin-bottom: 30px; 
+	font-weight: 100;
+	opacity: 0.8;
+	transition-duration: 1s;
+}
+
+div.parent-account{
+	background-color: #f28005; 
+	color: white; margin:0px 30px; 
+	font-size: 18px; 
+	padding: 8px; 
+	margin-bottom: 30px; 
+	font-weight: 100;
+	transition-duration: 1s;
+}
+div.parent-account:hover{
+	background-color: #f28005; 
+	color: white; margin:0px 30px; 
+	font-size: 18px; 
+	padding: 8px; 
+	margin-bottom: 30px; 
+	font-weight: 100;
+	opacity: 0.8;
+	transition-duration: 1s;
+}
+
+
+
 div.rem{
 	width: 290px;
 	display: inline-flex;
