@@ -128,19 +128,17 @@ h3.teacher{
 	text-align: center;
 	font-weight: 100;
 }
-p.number{
-	color: #D73131; 
-	font-weight: bold; 
+
+div.number{
+	display: inline-flex;
+	color: #D73131;  
 	font-size: 150%;
+	height: 50px;
 }
-p.number::before{
-	color: #dbcba6;
-	content: "_____";
-}
-p.number::after{
-	color: #dbcba6;
-	content: "_____";
-}
+
+
+
+
 
 div.video-panel2{
 	background-color: #f4f1ea;
@@ -238,4 +236,12 @@ div.video-info{
 	text-align: left;
 	font-size: 85%;
 	font-weight: bolder;
+}
+
+div.first-time{
+	display: inline-flex;
+	color: white; 
+	font-family: trebuchet ms; 
+	font-size: 120%; 
+	font-weight: 200;
 }
