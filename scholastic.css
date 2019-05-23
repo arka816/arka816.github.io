@@ -1,11 +1,10 @@
-
-
 div.fixed-feedback{
 	position: fixed;
 	right: 0px;
 	bottom: 45%;
 	width: 27px;
 	height: 108px;
+	z-index: 10;
 }
 img.feedback{
 	border-top-left-radius: 8px; 
@@ -19,6 +18,7 @@ div.fixed-captcha{
 	bottom: 5%;
 	width: 70px;
 	height: 60px;
+	z-index: 10;
 }
 img.captcha{
 	border-top-left-radius: 4px; 
@@ -40,6 +40,8 @@ div.header{
 div.head{
 	background-color: #d83230;
 	text-align: center;
+	position: relative;
+	width: 100%;
 }
 div.heading{
 	width: 1000px;
@@ -129,12 +131,14 @@ div.new-account{
 	display: inline-flex;
 	text-align: center;
 	width: 660px;
+	margin-top: 10px;
 }
 div.create-account{
 	width: 326px;
 	background-color: #ad2826;
 	margin:5px; 
 	color: white;
+	padding: 17px 0px;
 }
 div.teacher-account{
 	background-color: #3FB0EB; 
@@ -334,5 +338,5 @@ div.first-time{
 	display: inline-flex;
 	color: white; 
 	font-size: 18px; 
-	font-weight: 200;
+	font-family: Arial,sans-serif;
 }
