@@ -333,7 +333,6 @@ div.video-info{
 div.first-time{
 	display: inline-flex;
 	color: white; 
-	font-family: trebuchet ms; 
-	font-size: 120%; 
+	font-size: 18px; 
 	font-weight: 200;
 }
