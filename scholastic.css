@@ -1,3 +1,11 @@
+body{
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: BrandonText-Medium,Arial,sans-serif; 
+	text-align: center;
+	margin: 0px;
+}
 div.fixed-feedback{
 	position: fixed;
 	right: 0px;
@@ -40,8 +48,6 @@ div.header{
 div.head{
 	background-color: #d83230;
 	text-align: center;
-	position: relative;
-	width: 100%;
 }
 div.heading{
 	width: 1000px;
