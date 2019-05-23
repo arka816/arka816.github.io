@@ -309,7 +309,7 @@ div.end{
 	width: 1000px;
 	text-align: left;
 	font-family: sans-serif;
-	font-size: 70%;
+	font-size: 80%;
 	line-height: 18px;
 }
 
@@ -353,4 +353,10 @@ div.first-time{
 	color: white; 
 	font-size: 18px; 
 	font-family: Arial,sans-serif;
+}
+span.link:hover{
+	color: red;
+}
+img.link:hover{
+	opacity: 0.5;
 }
