@@ -4,7 +4,7 @@ body{
 	overflow-x: hidden;
 	font-family: BrandonText-Medium,Arial,sans-serif; 
 	text-align: center;
-	margin: 0px;
+	margin: 0px auto;
 }
 div.fixed-feedback{
 	position: fixed;
