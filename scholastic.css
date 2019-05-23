@@ -149,7 +149,7 @@ div.sign-up{
 div.new-account{
 	display: inline-flex;
 	text-align: center;
-	width: 660px;
+	width: 690px;
 	margin-top: 10px;
 }
 div.create-account{
@@ -165,7 +165,7 @@ div.teacher-account{
 	color: white; 
 	font-size: 18px; 
 	padding: 12px; 
-	margin: 0px 30px 0px 30px; 
+	margin: 0px 20px 0px 20px; 
 	font-weight: 100;
 	transition-duration: 1s;
 }
@@ -174,7 +174,7 @@ div.teacher-account:hover{
 	color: white;
 	font-size: 18px;
 	padding: 12px; 
-	margin: 0px 30px 0px 30px;	 
+	margin: 0px 20px 0px 20px;	 
 	font-weight: 100;
 	opacity: 0.8;
 	transition-duration: 1s;
@@ -183,7 +183,7 @@ div.teacher-account:hover{
 div.parent-account{
 	background-color: #f28005; 
 	color: white; 
-	margin:0px 30px 0px 30px; 
+	margin:0px 20px 0px 20px; 
 	font-size: 18px; 
 	padding: 12px;  
 	font-weight: 100;
@@ -194,7 +194,7 @@ div.parent-account:hover{
 	color: white; 
 	font-size: 18px; 
 	padding: 12px; 
-	margin: 0px 30px 0px 30px; 
+	margin: 0px 20px 0px 20px; 
 	font-weight: 100;
 	opacity: 0.8;
 	transition-duration: 1s;
