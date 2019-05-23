@@ -5,6 +5,7 @@ body{
 	font-family: BrandonText-Medium,Arial,sans-serif; 
 	text-align: center;
 	margin: 0 auto;
+	display: grid;
 }
 div.fixed-feedback{
 	position: fixed;
