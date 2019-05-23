@@ -4,7 +4,7 @@ body{
 	overflow-x: hidden;
 	font-family: BrandonText-Medium,Arial,sans-serif; 
 	text-align: center;
-	margin: 0 auto;
+	margin: 0px;
 	display: grid;
 	padding: 0px;
 }
