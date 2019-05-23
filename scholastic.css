@@ -24,17 +24,23 @@ img.feedback{
 }
 div.fixed-captcha{
 	position: fixed;
-	right: 0px;
+	right: -182px;
 	bottom: 5%;
-	width: 70px;
-	height: 60px;
 	z-index: 10;
+	transition-duration: 1s;
 }
 img.captcha{
 	border-top-left-radius: 4px; 
 	border-bottom-left-radius: 4px; 
-	width: 70px; 
+	width: 250px; 
 	height: 60px;
+}
+div.fixed-captcha:hover{
+	position: fixed;
+	right: 0px;
+	bottom: 5%;
+	z-index: 10;
+	transition-duration: 1s;
 }
 
 
