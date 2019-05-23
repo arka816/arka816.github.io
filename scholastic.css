@@ -236,8 +236,9 @@ div.reading-images{
 	width: auto;
 	text-align: center;
 	display: inline-flex;
+	margin-bottom: 20px;
 }
-h3.teacher{
+span.teacher{
 	color: #3a3a3a;
 	text-align: center;
 	font-weight: 100;
