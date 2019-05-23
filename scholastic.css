@@ -107,7 +107,8 @@ input.save-password{
 	margin-top: 2px; 
 	margin-right: 5px; 
 	background-color: white; 
-	float: left
+	float: left;
+	
 }
 input.sign-in{
 	width: 292.6px;
